@@ -1,0 +1,11 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+#clock {
+  font-family: 'Inconsolata', serif;
+  /*color: #6495ED;*/
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
