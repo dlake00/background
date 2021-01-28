@@ -3,18 +3,36 @@
 
 #clock {
   font-family: 'Frutiger', sans-serif;
-  color: #006BB6;
+  color: #114499;
   font-size: 72px;
   text-align: center;
-  /*padding-top: 1rem;
-  padding-bottom: 1rem;*/
 }
 
 #clock2 {
   font-family: 'Frutiger', sans-serif;
-  color: #006BB6;
+  color: #114499;
   font-size: 72px;
   text-align: center;
-  /*padding-top: 1rem;
-  padding-bottom: 1rem;*/
+}
+
+/* CSS Overrides */
+
+.border-primary {
+  border-color: #7ccce1 !important;
+}
+
+.border-secondary {
+  border-color: #114499 !important;
+}
+
+.text-primary {
+  color: #7ccce1 !important;
+}
+
+.text-secondary {
+  color: #114499 !important;
+}
+
+.lead {
+  font-size: 2rem;
 }
