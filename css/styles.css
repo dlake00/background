@@ -16,6 +16,9 @@
 }*/
 
 /* CSS Overrides */
+body {
+  background-color: #020027;
+}
 
 .border-primary {
   border-color: #7ccce1 !important;
