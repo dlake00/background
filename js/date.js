@@ -1,11 +1,12 @@
 function currentDate() {
 
-  /* creating object of Date class */
+  /* create date object and get day month year */
   var date = new Date();
   var day = date.getDate();
   var month = date.getMonth();
   var year = date.getFullYear();
 
+  /* get written day */
   let wDay;
   switch (date.getDay()) {
   case 0:
@@ -30,6 +31,7 @@ function currentDate() {
     wDay = "Saturday";
   }
 
+  /* get written month */
   let wMonth;
   switch (month) {
   case 0:
@@ -69,6 +71,7 @@ function currentDate() {
     wMonth = "December";
   }
 
+  /* get day suffix */
   let suffix;
   switch (day) {
     case 1:

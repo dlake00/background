@@ -17,8 +17,9 @@ function currentTime() {
 
    /* add time to clock div */
   document.getElementById("clock").innerText = hour + ":" + min + ":" + sec + " " + noon;
-    /* set timer */
-    var t = setTimeout(currentTime, 1000);
+  
+  /* set timer */
+  var t = setTimeout(currentTime, 1000);
 }
 
 /* append 0 before time elements if less than 10 */
