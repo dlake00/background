@@ -19,33 +19,44 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- Additional CSS -->
-    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <title>Splash Screen</title>
   </head>
-  <body>
+  <body style="background-color: #133e20;">
+
+    <!-- Background splash screen image -->
+    <img src="img/climate_change_overlay_1080p.png" class="position-absolute top-50 start-50 translate-middle" style="height: 1080px;" alt="Background">
 
     <header>
     <!-- Title container w/ subtitle, top left corner -->
-    <!--<div class="container position-absolute top-0 start-0 m-3">
-      <div class="float-start pt-3 pe-2">
-        <h3 class=""><span class="badge rounded-pill bg-danger"><span class="dot blink_me"></span> Live</span></h1>
+    <div class="container position-absolute top-0 start-0 p-5 m-5">
+      <h1 id="title" class="text-light" onclick="textInput('title')"><strong>Medway Council </strong></h1>
+      <h1 id="date" class="lead text-light pb-5"></h1>
+      <h5 class="text-light">
+        <i class="bi bi-facebook"></i> medwaycouncilupdates<br>
+        <i class="bi bi-twitter"></i> medway_council<br>
+        <i class="bi bi-youtube"></i> medwaycouncil
+      </h5>
+    </div>
+
+    <div class="container position-absolute top-0 end-0 m-5">
+      <div class="float-end">
+        <h1><span class="badge rounded-pill bg-danger"><span class="dot blink_me"></span> Live</span></h1>
       </div>
-      <h1 id="title" class="display-5 text-light"><strong>Gibraltar Farm Planning Inquiry</strong></h1>
-      <h1 id="date" class="lead text-light"></h1>
-    </div>-->
+    </div>
     </header>
 
     <footer>
     <!-- Medway Council social media links, bottom left corner -->
-    <div class="container position-absolute bottom-0 start-0 m-3">
+    <div class="container position-absolute bottom-0 start-0 m-5">
     </div>
 
     <!-- Medway Council logo w/ clock display, bottom right corner -->
-    <div class="container position-absolute bottom-0 end-0 m-5">
+    <div class="container position-absolute bottom-0 end-0 p-5 m-5">
       <div class="float-end">
-        <img src="img/logo_white.png" class="img-fluid pb-3" style="width: 120px;" alt="Medway Council Logo">
-        <h5 class="text-light text-center border-top border-1 border-light pt-2" id="clock"></h3>
+        <img src="img/logo_white.png" class="img-fluid pb-3" style="width: 160px;" alt="Medway Council Logo">
+        <h3 class="text-light text-center border-top border-1 border-light pt-2" id="clock"></h3>
       </div>
     </div>
     </footer>
@@ -56,5 +67,6 @@
         crossorigin="anonymous"></script>
     <script src="js/clock.js"></script>
     <script src="js/date.js"></script>
+    <script src="js/text.js"></script>
   </body>
 </html>
